@@ -17,9 +17,9 @@ number=QLabel("?")
 button=QPushButton("Згенерувати")
 
 line=QVBoxLayout()
-line.addWidget(text,aligment=Qt.AlignCenter)
-line.addWidget(number,aligment=Qt.AlignCenter)
-line.addWidget(button,aligment=Qt.AlignCenter)
+line.addWidget(text,alignment=Qt.AlignCenter)
+line.addWidget(number,alignment=Qt.AlignCenter)
+line.addWidget(button,alignment=Qt.AlignCenter)
 win.setLayout(line)
 
 button.clicked.connect(generate)
