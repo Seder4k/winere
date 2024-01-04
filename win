@@ -2,7 +2,7 @@ from PyQt5.QtCore import*
 from PyQt5.QtWidgets import*
 from random import randint
 
-def generator():
+def generate():
     n=randint(1,100)
     text.setText("Переможець")
     number.setText(str(n))
